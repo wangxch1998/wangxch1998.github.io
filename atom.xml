@@ -3,11 +3,11 @@
   <title>Xiaochen&amp;Mingchen&#39;s Story</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://wangxch1998.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://wangxch1998.github.io/"/>
   <updated>2021-10-31T06:33:26.045Z</updated>
-  <id>http://example.com/</id>
+  <id>https://wangxch1998.github.io/</id>
   
   <author>
     <name>Xiaochen&amp;Mingchen</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2021/10/31/hello-world/"/>
-    <id>http://example.com/2021/10/31/hello-world/</id>
+    <link href="https://wangxch1998.github.io/2021/10/31/hello-world/"/>
+    <id>https://wangxch1998.github.io/2021/10/31/hello-world/</id>
     <published>2021-10-31T06:34:40.351Z</published>
     <updated>2021-10-31T06:33:26.045Z</updated>
     
