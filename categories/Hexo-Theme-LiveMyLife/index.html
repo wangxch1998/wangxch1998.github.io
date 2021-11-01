@@ -150,7 +150,7 @@
 
 <!-- hack iOS CSS :active style -->
 
-	<body ontouchstart="" class="body--light body--dark">
+	<body ontouchstart="" class="body--light body--light">
 
 
 		<!-- ThemeColor -->
@@ -184,7 +184,7 @@
       ? b.pop()
       : '';
   }
-  let themeMode = 'dark';
+  let themeMode = 'light';
   if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
     let dbody = document.body.classList;
     themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
@@ -247,17 +247,6 @@
           
           
           <li>
-            <a href="/about/">
-              
-              关于
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/archive/">
               
               归档
@@ -283,6 +272,15 @@
             <a href="/tags/">
               
               标签
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/about/">
               
               
             </a>
@@ -562,11 +560,11 @@
   <div class="tags">
     
     
-    <a href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="1">Hexo-Theme-LiveMyLife</a>
-    
-    
-    
     <a href="/tags/#我们的故事" title="我们的故事" rel="1">我们的故事</a>
+    
+    
+    
+    <a href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="1">Hexo-Theme-LiveMyLife</a>
     
     
   </div>
@@ -577,17 +575,17 @@
     
         <!-- Short About -->
 <section class="visible-md visible-lg">
-  <h5><a href="/about/">关于自己</a></h5>
+  <h5><a href="/about/">关于我们</a></h5>
   <div class="short-about">
 
     
-    <img id="avatar_pic" src="/img/avatar/fatpeople.jpg" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
+    <img id="avatar_pic" src="/img/avatar/we_whu.jpg" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
     -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
     -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);" />
     
 
     
-    <p>Fat people have no future, either thin or die...</p>
+    <p>晓晨和明辰</p>
     
 
     <!-- SNS Link -->
@@ -704,12 +702,12 @@
 <div class="widget">
   <ul>
     
-    <a href="/categories/#Hexo-Theme-LiveMyLife">
-      <li>Hexo-Theme-LiveMyLife</li>
-    </a>
-    
     <a href="/categories/#我们的故事">
       <li>我们的故事</li>
+    </a>
+    
+    <a href="/categories/#Hexo-Theme-LiveMyLife">
+      <li>Hexo-Theme-LiveMyLife</li>
     </a>
     
   </ul>

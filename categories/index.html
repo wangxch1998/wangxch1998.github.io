@@ -150,7 +150,7 @@
 
 <!-- hack iOS CSS :active style -->
 
-	<body ontouchstart="" class="body--light body--dark">
+	<body ontouchstart="" class="body--light body--light">
 
 
 		<!-- ThemeColor -->
@@ -184,7 +184,7 @@
       ? b.pop()
       : '';
   }
-  let themeMode = 'dark';
+  let themeMode = 'light';
   if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
     let dbody = document.body.classList;
     themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
@@ -247,17 +247,6 @@
           
           
           <li>
-            <a href="/about/">
-              
-              关于
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/archive/">
               
               归档
@@ -283,6 +272,15 @@
             <a href="/tags/">
               
               标签
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/about/">
               
               
             </a>
@@ -463,42 +461,13 @@
       <!-- 标签云 -->
       <div id='tag_cloud' class="tags">
         
-        <a href="#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="1">Hexo-Theme-LiveMyLife</a>
-        
         <a href="#我们的故事" title="我们的故事" rel="1">我们的故事</a>
+        
+        <a href="#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="1">Hexo-Theme-LiveMyLife</a>
         
       </div>
 
       <!-- 标签列表 -->
-      
-      <div class="one-tag-list">
-        <span class="fa fa-tag listing-seperator" id="Hexo-Theme-LiveMyLife">
-          <span class="tag-text">Hexo-Theme-LiveMyLife</span>
-        </span>
-        
-        <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-        <div class="post-preview">
-          <a href="/cn/Hexo-Theme-LiveMyLife/">
-            <h2 class="post-title">
-              Hexo-Theme-LiveMyLife
-              
-              -- cn
-              
-            </h2>
-            
-            <h3 class="post-subtitle">
-              A succinct hexo theme...
-            </h3>
-            
-          </a>
-          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-        </div>
-        <hr>
-        
-      </div>
       
       <div class="one-tag-list">
         <span class="fa fa-tag listing-seperator" id="我们的故事">
@@ -520,6 +489,35 @@
             
             <h3 class="post-subtitle">
               第一次尝试记录...
+            </h3>
+            
+          </a>
+          <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        </div>
+        <hr>
+        
+      </div>
+      
+      <div class="one-tag-list">
+        <span class="fa fa-tag listing-seperator" id="Hexo-Theme-LiveMyLife">
+          <span class="tag-text">Hexo-Theme-LiveMyLife</span>
+        </span>
+        
+        <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+        <div class="post-preview">
+          <a href="/cn/Hexo-Theme-LiveMyLife/">
+            <h2 class="post-title">
+              Hexo-Theme-LiveMyLife
+              
+              -- cn
+              
+            </h2>
+            
+            <h3 class="post-subtitle">
+              A succinct hexo theme...
             </h3>
             
           </a>
